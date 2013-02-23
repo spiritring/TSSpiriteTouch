@@ -207,6 +207,7 @@
 		30AE5D3916D87F4B00140DCD /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AE5D3816D87F4B00140DCD /* HttpClient.cpp */; };
 		30AE5D4216D87F4B00140DCD /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AE5D4116D87F4B00140DCD /* AppDelegate.cpp */; };
 		30AE5D4516D87F4B00140DCD /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AE5D4416D87F4B00140DCD /* HelloWorldScene.cpp */; };
+		30AE5D4D16D8801B00140DCD /* TSSpirte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30AE5D4B16D8801B00140DCD /* TSSpirte.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -650,6 +651,8 @@
 		30AE5D4116D87F4B00140DCD /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		30AE5D4316D87F4B00140DCD /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		30AE5D4416D87F4B00140DCD /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		30AE5D4B16D8801B00140DCD /* TSSpirte.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSSpirte.cpp; sourceTree = "<group>"; };
+		30AE5D4C16D8801B00140DCD /* TSSpirte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSpirte.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1554,6 +1557,8 @@
 				30AE5D4116D87F4B00140DCD /* AppDelegate.cpp */,
 				30AE5D4316D87F4B00140DCD /* HelloWorldScene.h */,
 				30AE5D4416D87F4B00140DCD /* HelloWorldScene.cpp */,
+				30AE5D4B16D8801B00140DCD /* TSSpirte.cpp */,
+				30AE5D4C16D8801B00140DCD /* TSSpirte.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1809,6 +1814,7 @@
 				30AE5D3916D87F4B00140DCD /* HttpClient.cpp in Sources */,
 				30AE5D4216D87F4B00140DCD /* AppDelegate.cpp in Sources */,
 				30AE5D4516D87F4B00140DCD /* HelloWorldScene.cpp in Sources */,
+				30AE5D4D16D8801B00140DCD /* TSSpirte.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1840,7 +1846,7 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1867,7 +1873,7 @@
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
 					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};

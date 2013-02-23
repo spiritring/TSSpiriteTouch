@@ -14,6 +14,8 @@ public:
     
     // a selector callback
     void menuCloseCallback(CCObject* pSender);
+    
+    virtual void registerWithTouchDispatcher(void);
 
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(HelloWorld);
